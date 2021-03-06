@@ -1,8 +1,7 @@
 def main():
     beratBadan = int(input("Berat Badan (kg)    : "))
     tinggiBadan = int(input("Tinggi Badan (cm)  : "))
-    print("Dengan Berat Badan {}kg dan Tinggi Badan {}cm".format(
-        beratBadan, tinggiBadan))
+    print("Dengan Berat Badan {}kg dan Tinggi Badan {}cm".format(beratBadan, tinggiBadan))
     BMI = float(beratBadan*10000/(tinggiBadan*tinggiBadan))
     print("BMI anda adalah  : {:.2f}".format(BMI))
 
