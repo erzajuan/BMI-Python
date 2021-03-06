@@ -12,7 +12,6 @@ def main():
         print("Anda Termasuk Kelebihan Berat Badan")
     else:
         print("Anda Termasuk Obesistas")
-
-
+        
 if __name__ == '__main__':
     main()
